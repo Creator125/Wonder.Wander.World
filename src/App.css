@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 } */
+
+body {
+  display: flex;
+  align-items: auto;
+  height: auto;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #e3f4ff;
+}
+
+.container-app {
+  width: 100%;
+  display: flex;
+}
+
+.routes {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .container-app {
+    flex-direction: column;
+  }
+}
+
